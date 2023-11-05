@@ -1,0 +1,10 @@
+{
+    "nama": "Dimas Miftahul",
+    "kelas": "XI RPL 3",
+    "umur": 17,
+    "hobby": ["Gaming", "Coding"],
+    "guru": {
+        "nama": "Mrs. Aisyah",
+        "mata_pelajaran": "Bahasa Indonesia"
+    }
+}

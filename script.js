@@ -13,15 +13,43 @@
 // }
 
 // Pengkondisian
-var jlmAngkot = 10;
-var angkotBeroperasi = 6;
-var noAngkot = 1;
-if (noAngkot <= angkotBeroperasi) {
-  for (noAngkot = angkotBeroperasi + 1; noAngkot <= jlmAngkot; noAngkot++) {
-    console.log('Angkot No')
-  }
-} else {
-  for (noAngkot = angkotBeroperasi + 1; noAngkot <= jlmAngkot; noAngkot++) {
-    console.log("Angkot No. " + noAngkot + " sedang diperbaiki!");
-  }
+// var jlmAngkot = 10;
+// var angkotBeroperasi = 6;
+// var noAngkot = 1;
+// if (noAngkot <= angkotBeroperasi) {
+//   for (noAngkot = angkotBeroperasi + 1; noAngkot <= jlmAngkot; noAngkot++) {
+//     console.log('Angkot No')
+//   }
+// } else {
+//   for (noAngkot = angkotBeroperasi + 1; noAngkot <= jlmAngkot; noAngkot++) {
+//     console.log("Angkot No. " + noAngkot + " sedang diperbaiki!");
+//   }
+// }
+
+// Object JavaScript
+var identitas = {
+    nama: "Jeffry",
+    umur: '21',
+    alamat: ['JL. Ampera Raya', 'GG. Sejahtera', 'A4']
 }
+
+// cara 1 function declaration
+// function getIden() {
+//     console.log('Dimas')
+// }
+
+// getIden();
+
+// cara 2 
+// var obj = {};
+// obj.halo = function() {
+//     console.log('Halo');
+// }
+
+// obj.halo();
+
+// cara 3
+function Halo(){
+    console.log('Halo');
+}
+new Halo();
